@@ -11,10 +11,10 @@ namespace MVCBlog.Core.Entities
         /// <summary>
         /// Initializes a new instance of the <see cref="EntityBase"/> class.
         /// </summary>
-        public EntityBase()
+        protected EntityBase()
         {
             this.Id = Guid.NewGuid();
-            this.Created = DateTime.Now;
+            this.Created = DateTime.UtcNow;
         }
 
         /// <summary>
