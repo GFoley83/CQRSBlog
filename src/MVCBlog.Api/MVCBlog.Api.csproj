@@ -101,8 +101,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\db.sdf" />
-    <Content Include="App_Data\log.txt" />
     <Content Include="App_Data\MVCBlog.mdf" />
     <Content Include="App_Data\MVCBlog_log.ldf">
       <DependentUpon>MVCBlog.mdf</DependentUpon>
